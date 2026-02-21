@@ -1,0 +1,31 @@
+---
+title: Welcome to Docs Hub
+---
+
+# Docs Hub
+
+A centralized, scalable documentation engine for all your projects.
+
+- Powered by Next.js, Nextra, and Tailwind CSS
+- Supports multiple project documentation via Git submodules
+- Clean, GitBook-like UI with dark mode and search
+
+## How It Works
+
+- Each project owns its own `/docs` folder
+- Add project repos as submodules in `/content/<project-name>`
+- Docs Hub dynamically renders documentation under `/projects/<project-name>`
+
+## Getting Started
+
+1. Add a project as a submodule:
+   ```bash
+   git submodule add <repo-url> content/<project-name>
+   git submodule update --init --recursive
+   ```
+2. Add markdown docs to the project's `/docs` folder
+3. Access docs at `/projects/<project-name>`
+
+---
+
+> Designed for Vercel. Clean, scalable, and production-ready.

@@ -1,0 +1,3 @@
+[submodule "content/scriptable-ioswidgets"]
+	path = content/scriptable-ioswidgets
+	url = https://github.com/rushhiii/Scriptable-IOSWidgets
